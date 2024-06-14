@@ -59,5 +59,5 @@ export function Box(props: MeshProps) {
 Docs: https://github.com/pmndrs/gltfjsx
 
 - Place the model in the `public` folder
-- Run the following script (make sure that filename matches your model): `npx gltfjsx your-model.{glb,gltf} --simplify --types --transform`
+- Run the following script (make sure that filename matches your model): `npx gltfjsx your-model.{glb,gltf} --simplify --types --transform --shadows`
 - The script will generate a .tsx file. Move that file to your components folder `src/components`
